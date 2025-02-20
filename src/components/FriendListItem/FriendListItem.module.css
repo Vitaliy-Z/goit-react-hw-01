@@ -1,0 +1,9 @@
+.status {
+  font-size: 12px;
+}
+.isOnline {
+  color: green;
+}
+.isOffline {
+  color: red;
+}

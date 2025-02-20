@@ -1,0 +1,44 @@
+.card {
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.userWrapper {
+  padding: 10px 15px;
+  text-align: center;
+}
+.avatar {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #555;
+}
+.name {
+  margin: 0;
+  font-weight: bold;
+}
+.text {
+  margin: 0;
+  color: #6c6a6a;
+}
+.statsList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: 1px solid #555;
+  background-color: #a6a3a383;
+}
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 8px;
+}
+.statsItem:nth-child(2) {
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+}
+.statsText {
+  font-weight: bold;
+}

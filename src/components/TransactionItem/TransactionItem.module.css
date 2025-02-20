@@ -1,0 +1,3 @@
+.tableRow:nth-child(2n) {
+  background-color: #a4a2a279;
+}
